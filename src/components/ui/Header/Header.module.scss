@@ -1,0 +1,15 @@
+.headerWr {
+  width: 100%;
+  height: fit-content;
+  padding-block: 18px;
+  border-bottom: 1px solid $white30;
+
+  a {
+    opacity: .6;
+    transition: .2s;
+  }
+
+  a:hover {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,16 @@
+.gridWr {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.gridContent {
+  display: flex;
+  min-width: fit-content;
+  flex-basis: 336px;
+  gap: 32px;
+
+  & > * {
+    min-width: 336px;
+  }
+}

@@ -1,0 +1,50 @@
+@use './fonts';
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  box-sizing: border-box;
+  font-family: 'google-sans';
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  padding-inline: 52px;
+  display: flex;
+  flex-direction: column;
+  background-color: $primaryColor;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+h2 {
+  font-weight: 500;
+}
+
+button, input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
