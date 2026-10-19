@@ -1,8 +1,8 @@
 "use client";
 
 import { createContext, useContext, useRef, type ReactNode } from "react";
-import { useStore } from "zustand";
 import { createItemsStore, type TaskType } from "./items-store";
+import { useStore } from "zustand";
 
 export type ItemsStoreApi = ReturnType<typeof createItemsStore>;
 

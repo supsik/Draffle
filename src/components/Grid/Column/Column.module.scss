@@ -1,2 +1,18 @@
-.columnWr {
+.columnHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  button {
+    width: 20px;
+    height: 20px;
+    opacity: .3;
+    transition: .3s;
+    border-radius: 30px;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
